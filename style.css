@@ -83,6 +83,14 @@ header {
 
 .row div{
     background-color: aqua;
-    height: 50px;
-    margin: 30px;
+    height: auto;
+    width: 40%;
+    margin: 20px; 
+    padding: 20px;
 }
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-evenly
+}
+
