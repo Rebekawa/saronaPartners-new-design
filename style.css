@@ -1,0 +1,88 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+
+.container{
+    width: 100%;
+}
+
+header {
+    height: 500px;
+    overflow: hidden;
+}
+
+.whoWeAre{
+    margin: 0px;
+    background-color: rgb(250, 250, 250);
+    height: auto;
+
+}
+
+.description{
+    background-color: pink;
+    height: 300px;
+}
+
+.portfolio{
+    background-color: green;
+    height: 800px;
+}
+
+.team {
+    background-color: rgb(128, 105, 0);
+    height: 1000px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between
+}
+
+#logo {
+    margin: 40px;
+    margin-left: 150px;
+    width: auto;
+    height: 70px;
+}
+
+#getInTouchBtn {
+    
+    border-radius: 3px;
+    margin: 40px;
+    margin-right: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Open Sans,sans-serif;
+    color: white;
+    background-color: rgb(33, 150, 243);
+    border-color: rgb(33, 150, 243);
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title img {
+    height: 380px;
+}
+
+.whoWeAre h3{
+    margin: 40px;
+    margin-left: 150px;
+}
+
+.whoWeAre h3 img{
+    height: 30px;
+    margin: 5px;
+    margin-top: 40px;
+}
+
+.row div{
+    background-color: aqua;
+    height: 50px;
+    margin: 30px;
+}
