@@ -20,17 +20,19 @@ header {
 }
 
 .description{
-    background-color: pink;
-    height: 300px;
+    background-color: white;
+    height: auto;
+    margin: 80px 0;
+
 }
 
 .portfolio{
-    background-color: green;
+    background-color: rgb(250, 250, 250);
     height: 800px;
 }
 
 .team {
-    background-color: rgb(128, 105, 0);
+    background-color: white;
     height: 1000px;
 }
 
@@ -70,27 +72,52 @@ header {
     height: 380px;
 }
 
-.whoWeAre h3{
+
+.subtitle{
     margin: 40px;
     margin-left: 150px;
 }
 
-.whoWeAre h3 img{
+.subtitle img{
     height: 30px;
     margin: 5px;
     margin-top: 40px;
 }
 
 .row div{
-    background-color: aqua;
+    background-color: white;
     height: auto;
     width: 40%;
     margin: 20px; 
-    padding: 20px;
 }
 
-.row1, .row2{
+.row1 div, .row2 div{
+    padding: 20px;
+
+}
+.row{
     display: flex;
     justify-content: space-evenly
+}
+
+.descriptionTitle {
+    margin-left: 5%;
+    
+}
+
+.line {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px 50px;
+    background-color: #2196F3;
+    padding: 10px;
+    
+}
+
+.line div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
 
