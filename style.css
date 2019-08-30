@@ -124,9 +124,11 @@ header {
 
 .picDesc{
     margin-right: 20px;
+    
 }
 .picDesc img{
     width: 35vh;
+    margin-bottom: 20px;
 }
 
 .copyright{
@@ -140,4 +142,17 @@ header {
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 300;
+}
+
+#philippeName{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#philippeRole{
+    margin: 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.7);
 }
