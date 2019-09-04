@@ -39,7 +39,7 @@ header {
     display: flex;
     justify-content: space-around;
     letter-spacing: 2px;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .rubric a {
@@ -162,6 +162,8 @@ header {
     margin: 4vh 6vh;
 }
 
+
+
 .contact {
     background-color: rgb(250, 250, 250);
     padding-bottom: 0;
@@ -194,3 +196,7 @@ header {
     margin-bottom: 5vh;
     color: rgb(151, 150, 150);
 }
+
+
+
+  
