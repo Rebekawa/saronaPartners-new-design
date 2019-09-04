@@ -38,10 +38,12 @@ header {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    letter-spacing: 2px;
+    font-size: 3vh;
 }
 
 .rubric a {
-    font-weight: bold;
+    font-weight: 350;
     color: rgb(141, 140, 140);
     vertical-align: middle;
 }
@@ -94,9 +96,17 @@ header {
     overflow: hidden;
 }
 
+.container p{
+    color: rgb(141, 140, 140);
+    letter-spacing: 1px;
+    font-size: 2.5vh;
+}
+
 .subtitle{
     color: rgb(83, 81, 81);
     letter-spacing: 2px;
+    font-size: 4vh;
+    padding: 2vh;
 }
 
 
@@ -109,7 +119,12 @@ header {
     
 }
 
-
+.ecoDesc{
+    color: blue;
+    letter-spacing: 2px;
+    margin: 4vh 0;
+    font-size: 4vh;
+}
 
 .about {
     
@@ -138,7 +153,6 @@ header {
 .saronaLogosDiv img{
     height: 15vh;
     width: 15vh;
-    background-color: red;
     margin: 4vh;
 }
 
@@ -153,13 +167,17 @@ header {
     padding-bottom: 0;
 }
 
+.contact .subtitle{
+    padding-bottom: 4vh;
+}
+
 
 #getInTouchBtn {
     height: 7vh;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: 300;
     border-radius: 3px;
-    margin: 40px 0;
+    margin: 4vh 0;
     padding: 0 12vh;
     font-family: Open Sans,sans-serif;
     color: white;
