@@ -5,20 +5,6 @@ body {
     width: 100%;
 }
 
-header {
-    height: 80vh;
-    overflow: hidden;
-
-}
-
-
-#logo {
-    margin: 5vh;
-    margin-left: 20vh;
-    width: auto;
-    height: 10vh;
-}
-
 .head {
     width: 100%;
     display: flex;
@@ -29,6 +15,13 @@ header {
     background-color: white;
     z-index: 12345;
     
+}
+
+#logo {
+    margin: 5vh;
+    margin-left: 20vh;
+    width: auto;
+    height: 10vh;
 }
 
 .rubric {
@@ -49,13 +42,18 @@ header {
 }
 
 
+header {
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+
+}
 
 .titleDiv{
-    padding: 15vh 0;
+    padding: 20vh 0;
     padding-left: 5vh;
-    vertical-align: middle;
     letter-spacing: 2px;
-    font-weight: 300;
 }
 
 .titleDiv p{
@@ -72,13 +70,11 @@ header {
     
 }
 
-.title {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.title img {
+
+header img {
     height: 60vh;
+    margin-top: 4vh;
 }
 
 .emptyLine {
@@ -87,6 +83,7 @@ header {
     width: 90%;
     margin: 2vh 0;
 }
+
 
 .container{
     width: 100%;
@@ -112,7 +109,6 @@ header {
 
 .theEcosystem{
     margin: 0px;
-    background-color: rgb(250, 250, 250);
     /* background-image: url('./images/Sarona\ Partners\ Logo\ triangle.png');
     background-position: bottom;
     background-repeat: no-repeat; */
@@ -120,10 +116,10 @@ header {
 }
 
 .ecoDesc{
-    color: blue;
+    color: #2997d6;
     letter-spacing: 2px;
     margin: 4vh 0;
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 .about {
@@ -162,10 +158,7 @@ header {
     margin: 4vh 6vh;
 }
 
-
-
 .contact {
-    background-color: rgb(250, 250, 250);
     padding-bottom: 0;
 }
 
