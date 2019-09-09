@@ -71,8 +71,6 @@ header {
     
 }
 
-
-
 header img {
     height: 60vh;
     margin-top: 7vh;
@@ -125,10 +123,6 @@ header img {
 }
 
 .about {
-    
-    /* background-image: url('./images/Sarona\ Partners\ Logo\ triangle.png');
-    background-position: top;
-    background-repeat: no-repeat; */
     position: relative;
     
 }
@@ -173,13 +167,14 @@ header img {
     
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 
 .partnersLine img{
     width: auto;
     height: 7vh;
-    
+    margin: 3vh 0;
 }
 
 .contact {
