@@ -23,6 +23,11 @@
             <a href="#partners">PARTNERS</a>
             <a href="#contact">CONTACT</a>
         </div>
+        <div class="burgerContainer" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
     </div>
 
 
@@ -57,14 +62,23 @@
         <img class='backgroundImage aboutBack' src="./images/Sarona Partners Logo triangle.png" alt="">
         <h3 class="subtitle">SARONA AT A GLANCE</h3>
         <div class="saronaLogosDiv">
-            <img src="./images/roundVentures.png" onclick="saronaVenturesDesc()" 
-                alt="Sarona Ventures logo">
-            <img src="./images/roundSpace.png" onclick="saronaSpaceDesc()" 
-                alt="Sarona Space logo">
-            <img src="./images/roundPrograms.png" onclick="saronaProgramsDesc()" 
-                alt="Sarona Programs logo">
-            <img src="./images/roundMedia.png" onclick="saronaMediaDesc()" 
-                alt="Sarona Media logo">
+            <div class="saronaLogosDivSite">
+                <img src="./images/roundVentures.png" onclick="saronaVenturesDesc()" alt="Sarona Ventures logo">
+                <input type="button" onclick="location.href='https://sarona.vc/';" value="visit site" class="visitSite"/>
+            </div>
+            <div class="saronaLogosDivSite">
+                <img src="./images/roundSpace.png" onclick="saronaSpaceDesc()" alt="Sarona Space logo">
+                <input type="button" onclick="location.href='http://saronaspace.com/';" value="visit site" class="visitSite"/>
+            </div>
+            <div class="saronaLogosDivSite">
+                <img src="./images/roundPrograms.png" onclick="saronaProgramsDesc()" alt="Sarona Programs logo">
+                
+            </div>
+            <div class="saronaLogosDivSite">
+                <img src="./images/roundMedia.png" onclick="saronaMediaDesc()" alt="Sarona Media logo">
+                
+            </div>
+
         </div>
         <h4 id="aboutSubChange">SARONA PROGRAMS</h4>
         <p id="changingDesc">Consisting of three unique initiatives (SigmaLabs, 365x, and GreenUp City), these programs
@@ -73,9 +87,16 @@
             global
             <br />leaders with cumulative reach to hundreds of thousands of resellers and millions of businesses.</p>
         <div class="saronaProgramsLogo" id="saronaProgramsLogo">
-            <img src="./images/Screenshot 2019-09-04 at 16.06.25.png" alt="">
-            <img src="./images/365x Logo.png" alt="">
-            <img src="./images/Screenshot 2019-09-04 at 16.06.30.png" alt="">
+            <a href="https://www.sigmalabs.co/" target="_blank">
+                <img src="./images/Screenshot 2019-09-04 at 16.06.25.png" alt="">
+            </a>
+            <a href="https://www.365x.io/" target="_blank">
+                <img src="./images/365x Logo.png" alt="">
+            </a>
+            <a href="https://www.greenupcity.com/" target="_blank">
+                <img src="./images/Screenshot 2019-09-04 at 16.06.30.png" alt="">
+            </a>
+
         </div>
 
     </div>
@@ -99,12 +120,12 @@
             <img src="./partnersLogos/Microsoft-Logo-PNG.png" alt="">
         </div>
         <div class="partnersLine">
-                <img src="./partnersLogos/Salesforce Logo.png" alt="">
-                <img src="./partnersLogos/logo-grand-prodware.png" alt="">
-                <img src="./partnersLogos/logo_techdata.png" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <img src="./partnersLogos/Salesforce Logo.png" alt="">
+            <img src="./partnersLogos/logo-grand-prodware.png" alt="">
+            <img src="./partnersLogos/logo_techdata.png" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
         </div>
 
     </div>
