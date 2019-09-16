@@ -26,8 +26,8 @@ body {
 
 .rubric {
     width: 40%;
-    margin: 40px;
-    margin-right: 100px; 
+    margin: 4vh;
+    margin-right: 6vh; 
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -41,11 +41,32 @@ body {
     vertical-align: middle;
 }
 
+.burger{
+    display: none;
+}
+
 .burgerContainer {
     display: inline-block;
     cursor: pointer;
     display: none;
   }
+
+#burgerContent{
+    display: none;
+    padding: 2vh;
+}
+
+#burgerContent div{
+    margin: 1vh;
+    
+}
+
+#burgerContent div a{
+    color: rgb(141, 140, 140);
+    font-weight: 350;
+    font-size: 2.5vh;
+
+}
   
   .bar1, .bar2, .bar3 {
     width: 35px;
@@ -89,13 +110,13 @@ header {
 .titleDiv p{
     color: gray;
     font-weight: 300;
-    font-size: 20px;   
+    font-size: 3vh;   
 }
 
 #title {
     color: rgb(73, 72, 72);
-    font-size: 32px;
-    margin: 5px 0; 
+    font-size: 4.5vh;
+    margin: 1vh 0; 
 }
 
 header img {
@@ -256,8 +277,12 @@ header img {
 
   @media only screen and (max-width: 1230px) {
     /* For mobile phones: */
+
+    .burger{
+        display: block;
+    }
     .burgerContainer {
-        display: inline-block;
+        display: block;
         margin: 40px;
         margin-right: 100px;
     }
