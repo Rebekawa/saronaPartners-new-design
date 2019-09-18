@@ -233,7 +233,7 @@ header img {
 }
 .partnersLine{ 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .partnersLine img{
