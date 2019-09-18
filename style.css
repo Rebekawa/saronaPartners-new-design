@@ -25,14 +25,14 @@ body {
 }
 
 .rubric {
-    width: 40%;
+    width: 45%;
     margin: 4vh;
     margin-right: 6vh; 
     padding: 0;
     display: flex;
     justify-content: space-around;
     letter-spacing: 2px;
-    font-size: 2.5vh;
+    font-size: 2.4vh;
 }
 
 .rubric a {
@@ -180,6 +180,14 @@ header img {
     left: -45vh;
 }
 
+.contactBack{
+    left: -20vh;
+    transform: rotate(35deg);
+    height: 65vh;
+    width: 65vh;
+    
+}
+
 .saronaLogosDiv, .saronaProgramsLog{
     display: flex;
     justify-content: center;
@@ -198,25 +206,31 @@ header img {
    margin-bottom: 2vh;
 }
 
-.saronaLogosDivSite input:hover{
+.visitSite:hover{
     background-color: rgb(219, 217, 217);
+}
+
+.saronaLogosDivSite {
+    cursor: pointer;
 }
 
 .visitSite{
     color: rgb(83, 81, 81);
     border: solid rgb(83, 81, 81) 3px;
-    background-color: white;
     padding: 1vh 4vh;
-
     border-radius: 20px;
+    margin: 2vh 4vh;
 }
 
-.saronaProgramsLogo img{
+.clickableLogos img{
     height: 7vh;
     width: auto;
     margin: 4vh 6vh;
 }
 
+.saronaMediaLogo{
+    display: none;
+}
 .partnersLine{ 
     display: flex;
     justify-content: space-evenly;
@@ -226,6 +240,10 @@ header img {
     width: auto;
     height: 7vh;
     margin: 5vh 2vh;
+}
+
+.bestPartners img{
+    height: 7.5vh;
 }
 
 .contact {
