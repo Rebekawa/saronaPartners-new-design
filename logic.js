@@ -40,6 +40,7 @@ function saronaMediaDesc() {
     document.getElementById("aboutSubChange").innerHTML = 'Sarona Media'
     document.getElementById("saronaProgramsLogo").style.display = 'none'
     document.getElementById('saronaMediaLogo').style.display='block'
+    document.getElementById('changingButtons').style.display='none'
 }
 
 
